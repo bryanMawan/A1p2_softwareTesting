@@ -14,21 +14,10 @@ public class Book {
         this.isbn = isbn;
     }
 
-    public String getTitle() {
-        return title;
-    }
-
-    public String getAuthor() {
-        return author;
-    }
-
-    public int getYear() {
-        return year;
-    }
-
-    public String getIsbn() {
-        return isbn;
-    }
+    public String getTitle() { return title;}
+    public String getAuthor() { return author; }
+    public int getYear() { return year; }
+    public String getIsbn() { return isbn; }
 }
 
 
